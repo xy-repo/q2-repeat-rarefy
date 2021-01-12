@@ -1,10 +1,10 @@
 # q2-repeat-rarefy: QIIME2 plugin for repeat rarefy method for library size normalization
-When handling a sparse dataset, I noticed that the rare taxa was easily ignored by the traditional one-shot rarefication. 
-So I proposed a repeat rarefy strategy, and wrote a very simple plugin to deal with this problem (ref: ).
-Repeat rarefy simply runs random rarefication N times, and computes the average count (floats are round up) of each OTU (ASV/feature) to gernerate the final average rarefied OTU table. 
-It proves that most rare OTUs were maintained while using repeat rarefy to normalize library size (unpublised results).
-As the float average count of OTU are round up, the total OTU count of each sample may not exactly the same.
-This method may be a good alternative to the one-shot rarefication, given its ability to keep information.
+* When handling a sparse dataset, I noticed that the rare taxa was easily ignored by the traditional one-shot rarefication.  
+* To deal with this problem, I proposed a repeat rarefy strategy, and wrote a very simple plugin (reference: https://github.com/qiime2/q2-feature-table/tree/master/q2_feature_table/_normalize.py).  
+* Repeat rarefy simply runs random rarefication *N* times, and computes the average count (floats are round up) of each OTU (ASV/feature) to gernerate the final average rarefied OTU table.  
+* It proves that, comparing with the one-shot rarefication, using repeat rarefy to normalize library size can keep significatnly more OTUs (unpublised results).  
+* As the float average count of OTU are round up, the total OTU count of each sample may not be exactly the same.  
+* This method could be an ideal alternative to the one-shot rarefication, given its ability to keep information.  
 
 ## Installing
 ```
