@@ -23,7 +23,7 @@ qiime repeat-rarefy repeat-rarefy --i-table table.qza \
                                   --p-repeat-times 100 \
                                   --o-rarefied-table average_rarefied_table.qza
 ```
-The above example rarefied the 'table.qza', under sampling depth of 2000 and repeat times of 100, to 'average_rarefied_table.qza'. 
+The above example rarefied the 'table.qza', under sampling depth of 2000 and repeat times of 100, to 'average_rarefied_table.qza'.  
 You can set the sampling depth based on your own dataset and increase repeat times to 1,000, 10,000 ...
 
 ## Citing 
