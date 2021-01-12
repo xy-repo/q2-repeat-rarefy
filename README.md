@@ -28,4 +28,4 @@ You can set the sampling depth based on your own dataset and increase repeat tim
 
 ## Citing 
 If you are interested to use repeat rarefy for any published research, please including the following citation:
-Yao Xia, q2-repeat-rarefy, (2021), GitHub repository, https://github.com/yxia0125/q2-repeat-rarefy.
+`Yao Xia, q2-repeat-rarefy, (2021), GitHub repository, https://github.com/yxia0125/q2-repeat-rarefy.`
